@@ -1,1 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    padding: 120px;
+}
 
+header {
+    background-color:darkred;
+    color: pink;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin:  10px;
+}
+
+nav ul li a {
+    color:darkcyan;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 200;
+    padding: 20px;
+    box-sizing: border-box; /* Add this to account for padding in width/height */
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+}
+
+footer {
+    background-color:black;
+    color:brown;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px; /* Add margin-top to separate content from footer */
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+form button {
+    padding: 10px;
+    background-color:lightpink;
+    color:green;
+    border: none;
+    cursor: pointer;
+}
